@@ -1287,3 +1287,4 @@ Caused by: org.eclipse.aether.transfer.ArtifactTransferException: Failure to tra
 2015-10-05 10:54:04,496 [Worker-26] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of Aurora 0.1
 2015-10-05 10:54:04,497 [Worker-26] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for Aurora 0.1
 2015-10-05 10:54:04,501 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-05 10:55:41,492 [Worker-26] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
