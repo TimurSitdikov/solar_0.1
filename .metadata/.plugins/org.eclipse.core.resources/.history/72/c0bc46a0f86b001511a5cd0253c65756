@@ -1,0 +1,8 @@
+h1{
+	color: #585858;
+	background-color: #D0D0D0;
+	font-family:Sans-serif;
+	font: Arial;
+	font-size: 25;
+
+}

@@ -1,0 +1,7 @@
+1444113442557	Rename resource 'style.css'
+1444115454338	Move compilation unit
+1444115886577	Move 'home.jsp' to 'pages'
+1444116043943	Copy file
+1444133796193	Encapsulate field 'login'
+1444133799426	Encapsulate field 'password'
+1444139021240	Encapsulate field 'keepLoggedIn'
