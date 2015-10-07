@@ -3,16 +3,17 @@
 <html>
 <head>
 <link href='<c:url value="/resources/css/homePage.css"/>' rel="stylesheet"/>
-	<title>АвтосервисСервис.ru</title>
+	<title>aurora_0.1</title>
 	
 </head>
 <body>
 <h1>АвтоСервис.ru</h1>
 <p>Site is in the development.</p>
-<a href ='<c:url value="/goToLogin"/>'>Login</a>
+<button onclick="window.location.href='<c:url value="/login"/>'">Login</button>
 <div class="user info">
 <p>User login is: ${user.login}</p>
 <p>User password is: ${user.password}</p>
+<p>Keep logged in: ${user.keepLoggedIn}</p>
 </div>
 </body>
 </html>

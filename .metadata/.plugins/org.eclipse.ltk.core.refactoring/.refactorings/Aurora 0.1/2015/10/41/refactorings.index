@@ -5,3 +5,6 @@
 1444133796193	Encapsulate field 'login'
 1444133799426	Encapsulate field 'password'
 1444139021240	Encapsulate field 'keepLoggedIn'
+1444206273852	Delete element
+1444206291254	Copy file
+1444206907981	Rename resource 'app-security.xml'

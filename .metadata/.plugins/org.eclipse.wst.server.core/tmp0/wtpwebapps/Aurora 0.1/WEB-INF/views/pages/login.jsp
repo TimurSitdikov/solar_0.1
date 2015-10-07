@@ -21,9 +21,9 @@
 			<form:input path="password" autocomplete="false"/>
 
 		</fieldset>
-
-		<footer> <label><input type="checkbox" tabindex="3" name="keepLoggedIn"/>Keep
-			me logged in</label> <input type="submit" class="loginBtn" value=Login
+			<form:checkbox path="keepLoggedIn"/><label>Keep me logged in.</label>
+		<footer> 
+		<input type="submit" class="loginBtn" value=Login
 			tabindex="4" />
 		</footer>
 
