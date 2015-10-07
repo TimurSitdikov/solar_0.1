@@ -10001,3 +10001,894 @@ java.lang.Exception: deploy is failing=Error occurred during deployment: Excepti
 	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
 	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 15:37:32.027
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 15:37:32.030
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 15:37:44.833
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 15:37:44.834
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY oracle.eclipse.tools.glassfish 1 1 2015-10-07 15:38:08.256
+!MESSAGE GlassFish: Deploy direcotry D:\glassfish4\glassfish\domains\domain1\eclipseApps\Aurora 0.1
+
+!ENTRY oracle.eclipse.tools.glassfish 4 1 2015-10-07 15:38:08.383
+!MESSAGE GlassFish: deploy is failing=
+!STACK 0
+java.lang.Exception: deploy is failing=Application with name [Aurora_0.1] is not deployed
+	at oracle.eclipse.tools.glassfish.GlassfishServerBehaviourDelegate.publishDeployedDirectory(GlassfishServerBehaviourDelegate.java:613)
+	at oracle.eclipse.tools.glassfish.GlassfishV4ServerBehavior.publishModuleForGlassFishV3(GlassfishV4ServerBehavior.java:96)
+	at oracle.eclipse.tools.glassfish.GlassfishV4ServerBehavior.publishModule(GlassfishV4ServerBehavior.java:56)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY oracle.eclipse.tools.glassfish 4 0 2015-10-07 15:38:08.385
+!MESSAGE cannot Deploy Aurora_0.1
+!STACK 0
+java.lang.Exception: deploy is failing=Application with name [Aurora_0.1] is not deployed
+	at oracle.eclipse.tools.glassfish.GlassfishServerBehaviourDelegate.publishDeployedDirectory(GlassfishServerBehaviourDelegate.java:613)
+	at oracle.eclipse.tools.glassfish.GlassfishV4ServerBehavior.publishModuleForGlassFishV3(GlassfishV4ServerBehavior.java:96)
+	at oracle.eclipse.tools.glassfish.GlassfishV4ServerBehavior.publishModule(GlassfishV4ServerBehavior.java:56)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:02:37.315
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:02:37.317
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:03:47.001
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:03:47.003
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:04:03.055
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:04:03.056
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:05:59.748
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:05:59.750
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:07:38.587
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:07:38.589
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:08:57.328
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:08:57.330
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:09:02.187
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:09:02.190
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:09:47.726
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:09:47.728
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY oracle.eclipse.tools.glassfish 1 1 2015-10-07 17:10:09.724
+!MESSAGE GlassFish: Deploy direcotry D:\glassfish4\glassfish\domains\domain1\eclipseApps\Aurora 0.1
+
+!ENTRY oracle.eclipse.tools.glassfish 4 1 2015-10-07 17:10:09.756
+!MESSAGE GlassFish: deploy is failing=
+!STACK 0
+java.lang.Exception: deploy is failing=Application with name [Aurora_0.1] is not deployed
+	at oracle.eclipse.tools.glassfish.GlassfishServerBehaviourDelegate.publishDeployedDirectory(GlassfishServerBehaviourDelegate.java:613)
+	at oracle.eclipse.tools.glassfish.GlassfishV4ServerBehavior.publishModuleForGlassFishV3(GlassfishV4ServerBehavior.java:96)
+	at oracle.eclipse.tools.glassfish.GlassfishV4ServerBehavior.publishModule(GlassfishV4ServerBehavior.java:56)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY oracle.eclipse.tools.glassfish 4 0 2015-10-07 17:10:09.758
+!MESSAGE cannot Deploy Aurora_0.1
+!STACK 0
+java.lang.Exception: deploy is failing=Application with name [Aurora_0.1] is not deployed
+	at oracle.eclipse.tools.glassfish.GlassfishServerBehaviourDelegate.publishDeployedDirectory(GlassfishServerBehaviourDelegate.java:613)
+	at oracle.eclipse.tools.glassfish.GlassfishV4ServerBehavior.publishModuleForGlassFishV3(GlassfishV4ServerBehavior.java:96)
+	at oracle.eclipse.tools.glassfish.GlassfishV4ServerBehavior.publishModule(GlassfishV4ServerBehavior.java:56)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY oracle.eclipse.tools.glassfish 1 1 2015-10-07 17:10:41.372
+!MESSAGE GlassFish: Deploy direcotry D:\glassfish4\glassfish\domains\domain1\eclipseApps\Aurora 0.1
+
+!ENTRY oracle.eclipse.tools.glassfish 4 1 2015-10-07 17:10:41.473
+!MESSAGE GlassFish: deploy is failing=
+!STACK 0
+java.lang.Exception: deploy is failing=Application with name [Aurora_0.1] is not deployed
+	at oracle.eclipse.tools.glassfish.GlassfishServerBehaviourDelegate.publishDeployedDirectory(GlassfishServerBehaviourDelegate.java:613)
+	at oracle.eclipse.tools.glassfish.GlassfishV4ServerBehavior.publishModuleForGlassFishV3(GlassfishV4ServerBehavior.java:96)
+	at oracle.eclipse.tools.glassfish.GlassfishV4ServerBehavior.publishModule(GlassfishV4ServerBehavior.java:56)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY oracle.eclipse.tools.glassfish 4 0 2015-10-07 17:10:41.475
+!MESSAGE cannot Deploy Aurora_0.1
+!STACK 0
+java.lang.Exception: deploy is failing=Application with name [Aurora_0.1] is not deployed
+	at oracle.eclipse.tools.glassfish.GlassfishServerBehaviourDelegate.publishDeployedDirectory(GlassfishServerBehaviourDelegate.java:613)
+	at oracle.eclipse.tools.glassfish.GlassfishV4ServerBehavior.publishModuleForGlassFishV3(GlassfishV4ServerBehavior.java:96)
+	at oracle.eclipse.tools.glassfish.GlassfishV4ServerBehavior.publishModule(GlassfishV4ServerBehavior.java:56)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:12:38.066
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:12:38.067
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY oracle.eclipse.tools.glassfish 1 1 2015-10-07 17:12:46.195
+!MESSAGE GlassFish: Deploy direcotry D:\glassfish4\glassfish\domains\domain1\eclipseApps\Aurora 0.1
+
+!ENTRY oracle.eclipse.tools.glassfish 4 1 2015-10-07 17:12:46.243
+!MESSAGE GlassFish: deploy is failing=
+!STACK 0
+java.lang.Exception: deploy is failing=Application with name [Aurora_0.1] is not deployed
+	at oracle.eclipse.tools.glassfish.GlassfishServerBehaviourDelegate.publishDeployedDirectory(GlassfishServerBehaviourDelegate.java:613)
+	at oracle.eclipse.tools.glassfish.GlassfishV4ServerBehavior.publishModuleForGlassFishV3(GlassfishV4ServerBehavior.java:96)
+	at oracle.eclipse.tools.glassfish.GlassfishV4ServerBehavior.publishModule(GlassfishV4ServerBehavior.java:56)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY oracle.eclipse.tools.glassfish 4 0 2015-10-07 17:12:46.246
+!MESSAGE cannot Deploy Aurora_0.1
+!STACK 0
+java.lang.Exception: deploy is failing=Application with name [Aurora_0.1] is not deployed
+	at oracle.eclipse.tools.glassfish.GlassfishServerBehaviourDelegate.publishDeployedDirectory(GlassfishServerBehaviourDelegate.java:613)
+	at oracle.eclipse.tools.glassfish.GlassfishV4ServerBehavior.publishModuleForGlassFishV3(GlassfishV4ServerBehavior.java:96)
+	at oracle.eclipse.tools.glassfish.GlassfishV4ServerBehavior.publishModule(GlassfishV4ServerBehavior.java:56)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:14:53.387
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:14:53.388
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY oracle.eclipse.tools.glassfish 1 1 2015-10-07 17:15:01.212
+!MESSAGE GlassFish: Deploy direcotry D:\glassfish4\glassfish\domains\domain1\eclipseApps\Aurora 0.1
+
+!ENTRY oracle.eclipse.tools.glassfish 4 1 2015-10-07 17:15:01.236
+!MESSAGE GlassFish: deploy is failing=
+!STACK 0
+java.lang.Exception: deploy is failing=Application with name [Aurora_0.1] is not deployed
+	at oracle.eclipse.tools.glassfish.GlassfishServerBehaviourDelegate.publishDeployedDirectory(GlassfishServerBehaviourDelegate.java:613)
+	at oracle.eclipse.tools.glassfish.GlassfishV4ServerBehavior.publishModuleForGlassFishV3(GlassfishV4ServerBehavior.java:96)
+	at oracle.eclipse.tools.glassfish.GlassfishV4ServerBehavior.publishModule(GlassfishV4ServerBehavior.java:56)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY oracle.eclipse.tools.glassfish 4 0 2015-10-07 17:15:01.239
+!MESSAGE cannot Deploy Aurora_0.1
+!STACK 0
+java.lang.Exception: deploy is failing=Application with name [Aurora_0.1] is not deployed
+	at oracle.eclipse.tools.glassfish.GlassfishServerBehaviourDelegate.publishDeployedDirectory(GlassfishServerBehaviourDelegate.java:613)
+	at oracle.eclipse.tools.glassfish.GlassfishV4ServerBehavior.publishModuleForGlassFishV3(GlassfishV4ServerBehavior.java:96)
+	at oracle.eclipse.tools.glassfish.GlassfishV4ServerBehavior.publishModule(GlassfishV4ServerBehavior.java:56)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:15:24.253
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:15:24.254
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY oracle.eclipse.tools.glassfish 1 1 2015-10-07 17:15:39.949
+!MESSAGE GlassFish: Deploy direcotry D:\glassfish4\glassfish\domains\domain1\eclipseApps\Aurora 0.1
+
+!ENTRY oracle.eclipse.tools.glassfish 4 1 2015-10-07 17:15:39.968
+!MESSAGE GlassFish: deploy is failing=
+!STACK 0
+java.lang.Exception: deploy is failing=Application with name [Aurora_0.1] is not deployed
+	at oracle.eclipse.tools.glassfish.GlassfishServerBehaviourDelegate.publishDeployedDirectory(GlassfishServerBehaviourDelegate.java:613)
+	at oracle.eclipse.tools.glassfish.GlassfishV4ServerBehavior.publishModuleForGlassFishV3(GlassfishV4ServerBehavior.java:96)
+	at oracle.eclipse.tools.glassfish.GlassfishV4ServerBehavior.publishModule(GlassfishV4ServerBehavior.java:56)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY oracle.eclipse.tools.glassfish 4 0 2015-10-07 17:15:39.971
+!MESSAGE cannot Deploy Aurora_0.1
+!STACK 0
+java.lang.Exception: deploy is failing=Application with name [Aurora_0.1] is not deployed
+	at oracle.eclipse.tools.glassfish.GlassfishServerBehaviourDelegate.publishDeployedDirectory(GlassfishServerBehaviourDelegate.java:613)
+	at oracle.eclipse.tools.glassfish.GlassfishV4ServerBehavior.publishModuleForGlassFishV3(GlassfishV4ServerBehavior.java:96)
+	at oracle.eclipse.tools.glassfish.GlassfishV4ServerBehavior.publishModule(GlassfishV4ServerBehavior.java:56)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY oracle.eclipse.tools.glassfish 1 1 2015-10-07 17:16:18.526
+!MESSAGE GlassFish: Deploy direcotry D:\glassfish4\glassfish\domains\domain1\eclipseApps\Aurora 0.1
+
+!ENTRY oracle.eclipse.tools.glassfish 4 1 2015-10-07 17:16:18.564
+!MESSAGE GlassFish: deploy is failing=
+!STACK 0
+java.lang.Exception: deploy is failing=Application with name [Aurora_0.1] is not deployed
+	at oracle.eclipse.tools.glassfish.GlassfishServerBehaviourDelegate.publishDeployedDirectory(GlassfishServerBehaviourDelegate.java:613)
+	at oracle.eclipse.tools.glassfish.GlassfishV4ServerBehavior.publishModuleForGlassFishV3(GlassfishV4ServerBehavior.java:96)
+	at oracle.eclipse.tools.glassfish.GlassfishV4ServerBehavior.publishModule(GlassfishV4ServerBehavior.java:56)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY oracle.eclipse.tools.glassfish 4 0 2015-10-07 17:16:18.567
+!MESSAGE cannot Deploy Aurora_0.1
+!STACK 0
+java.lang.Exception: deploy is failing=Application with name [Aurora_0.1] is not deployed
+	at oracle.eclipse.tools.glassfish.GlassfishServerBehaviourDelegate.publishDeployedDirectory(GlassfishServerBehaviourDelegate.java:613)
+	at oracle.eclipse.tools.glassfish.GlassfishV4ServerBehavior.publishModuleForGlassFishV3(GlassfishV4ServerBehavior.java:96)
+	at oracle.eclipse.tools.glassfish.GlassfishV4ServerBehavior.publishModule(GlassfishV4ServerBehavior.java:56)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY oracle.eclipse.tools.glassfish 1 1 2015-10-07 17:16:27.806
+!MESSAGE GlassFish: Deploy direcotry D:\glassfish4\glassfish\domains\domain1\eclipseApps\Aurora 0.1
+
+!ENTRY oracle.eclipse.tools.glassfish 4 1 2015-10-07 17:16:27.830
+!MESSAGE GlassFish: deploy is failing=
+!STACK 0
+java.lang.Exception: deploy is failing=Application with name [Aurora_0.1] is not deployed
+	at oracle.eclipse.tools.glassfish.GlassfishServerBehaviourDelegate.publishDeployedDirectory(GlassfishServerBehaviourDelegate.java:613)
+	at oracle.eclipse.tools.glassfish.GlassfishV4ServerBehavior.publishModuleForGlassFishV3(GlassfishV4ServerBehavior.java:96)
+	at oracle.eclipse.tools.glassfish.GlassfishV4ServerBehavior.publishModule(GlassfishV4ServerBehavior.java:56)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY oracle.eclipse.tools.glassfish 4 0 2015-10-07 17:16:27.832
+!MESSAGE cannot Deploy Aurora_0.1
+!STACK 0
+java.lang.Exception: deploy is failing=Application with name [Aurora_0.1] is not deployed
+	at oracle.eclipse.tools.glassfish.GlassfishServerBehaviourDelegate.publishDeployedDirectory(GlassfishServerBehaviourDelegate.java:613)
+	at oracle.eclipse.tools.glassfish.GlassfishV4ServerBehavior.publishModuleForGlassFishV3(GlassfishV4ServerBehavior.java:96)
+	at oracle.eclipse.tools.glassfish.GlassfishV4ServerBehavior.publishModule(GlassfishV4ServerBehavior.java:56)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY oracle.eclipse.tools.glassfish 4 1 2015-10-07 17:17:02.628
+!MESSAGE GlassFish: Undeploy is failing=
+!STACK 0
+java.lang.Exception: undeploy is failing=Application Aurora_0.1 is not deployed on this target [server]
+	at oracle.eclipse.tools.glassfish.GlassfishServerBehaviourDelegate.undeploy(GlassfishServerBehaviourDelegate.java:460)
+	at oracle.eclipse.tools.glassfish.GlassfishServerBehaviourDelegate.publishDeployedDirectory(GlassfishServerBehaviourDelegate.java:520)
+	at oracle.eclipse.tools.glassfish.GlassfishV4ServerBehavior.publishModuleForGlassFishV3(GlassfishV4ServerBehavior.java:96)
+	at oracle.eclipse.tools.glassfish.GlassfishV4ServerBehavior.publishModule(GlassfishV4ServerBehavior.java:56)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY oracle.eclipse.tools.glassfish 1 1 2015-10-07 17:17:45.625
+!MESSAGE GlassFish: Deploy direcotry D:\glassfish4\glassfish\domains\domain1\eclipseApps\Aurora 0.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:18:07.643
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:18:07.645
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:18:18.385
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:18:18.390
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY oracle.eclipse.tools.glassfish 1 1 2015-10-07 17:18:47.174
+!MESSAGE GlassFish: Deploy direcotry D:\glassfish4\glassfish\domains\domain1\eclipseApps\Aurora 0.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:19:49.002
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:19:49.004
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:19:58.803
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:19:58.805
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY oracle.eclipse.tools.glassfish 1 1 2015-10-07 17:20:42.770
+!MESSAGE GlassFish: Deploy direcotry D:\glassfish4\glassfish\domains\domain1\eclipseApps\Aurora 0.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:25:15.720
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:25:15.723
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:25:32.176
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:25:32.183
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:26:26.339
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:26:26.341
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY oracle.eclipse.tools.glassfish 1 1 2015-10-07 17:27:43.066
+!MESSAGE GlassFish: Deploy direcotry D:\glassfish4\glassfish\domains\domain1\eclipseApps\Aurora 0.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:29:42.331
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:29:42.332
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:29:56.122
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:29:56.124
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY oracle.eclipse.tools.glassfish 1 1 2015-10-07 17:30:05.071
+!MESSAGE GlassFish: Deploy direcotry D:\glassfish4\glassfish\domains\domain1\eclipseApps\Aurora 0.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:31:07.681
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:31:07.682
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY oracle.eclipse.tools.glassfish 1 1 2015-10-07 17:31:15.493
+!MESSAGE GlassFish: Deploy direcotry D:\glassfish4\glassfish\domains\domain1\eclipseApps\Aurora 0.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:32:07.188
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:32:07.189
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY oracle.eclipse.tools.glassfish 1 1 2015-10-07 17:32:13.003
+!MESSAGE GlassFish: Deploy direcotry D:\glassfish4\glassfish\domains\domain1\eclipseApps\Aurora 0.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:32:46.129
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:32:46.130
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:34:13.900
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:34:13.902
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:34:22.023
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:34:22.025
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:35:05.674
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:35:05.676
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:35:21.083
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:35:21.085
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:35:48.996
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:35:48.997
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:35:52.087
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:35:52.089
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:36:05.667
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:36:05.668
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:36:08.697
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:36:08.699
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:36:22.042
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:36:22.044
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:36:35.813
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:36:35.814
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:36:40.892
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:36:40.894
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY oracle.eclipse.tools.glassfish 1 1 2015-10-07 17:37:01.165
+!MESSAGE GlassFish: Deploy direcotry D:\glassfish4\glassfish\domains\domain1\eclipseApps\Aurora 0.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:41:14.632
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:41:14.634
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:42:00.399
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:42:00.401
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:42:07.671
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:42:07.674
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:42:12.486
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:42:12.487
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:42:15.482
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:42:15.483
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY oracle.eclipse.tools.glassfish 1 1 2015-10-07 17:42:29.501
+!MESSAGE GlassFish: Deploy direcotry D:\glassfish4\glassfish\domains\domain1\eclipseApps\Aurora 0.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:43:21.704
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:43:21.706
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:43:39.018
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:43:39.020
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY oracle.eclipse.tools.glassfish 1 1 2015-10-07 17:43:46.923
+!MESSAGE GlassFish: Deploy direcotry D:\glassfish4\glassfish\domains\domain1\eclipseApps\Aurora 0.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:46:10.589
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:46:10.591
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:46:19.705
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:46:19.706
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:46:23.769
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 17:46:23.771
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY oracle.eclipse.tools.glassfish 1 1 2015-10-07 17:46:29.311
+!MESSAGE GlassFish: Deploy direcotry D:\glassfish4\glassfish\domains\domain1\eclipseApps\Aurora 0.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 18:00:42.526
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 18:00:42.527
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY oracle.eclipse.tools.glassfish 1 1 2015-10-07 18:00:46.268
+!MESSAGE GlassFish: Deploy direcotry D:\glassfish4\glassfish\domains\domain1\eclipseApps\Aurora 0.1
+
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2015-10-07 18:03:10.771
+!MESSAGE Error occured processing '/Aurora 0.1/src/main/webapp/WEB-INF/spring/app_security.xml'
+!STACK 0
+org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: Security namespace does not support decoration of element [csrf]
+Offending resource: file [C:/Users/Timur_Sitdikov/Documents/GitHub/solar_0.1/Aurora 0.1/src/main/webapp/WEB-INF/spring/app_security.xml]
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansConfig$BeansConfigProblemReporter.fatal(BeansConfig.java:1140)
+	at org.springframework.beans.factory.parsing.ReaderContext.fatal(ReaderContext.java:68)
+	at org.springframework.beans.factory.parsing.ReaderContext.fatal(ReaderContext.java:55)
+	at org.springframework.security.config.SecurityNamespaceHandler.reportUnsupportedNodeType(SecurityNamespaceHandler.java:144)
+	at org.springframework.security.config.SecurityNamespaceHandler.parse(SecurityNamespaceHandler.java:108)
+	at org.springframework.ide.eclipse.beans.core.internal.model.namespaces.DelegatingNamespaceHandlerResolver$ElementTrackingNamespaceHandler.parse(DelegatingNamespaceHandlerResolver.java:177)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.parseCustomElement(BeanDefinitionParserDelegate.java:1427)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansConfig$ErrorSuppressingBeanDefinitionParserDelegate.parseCustomElement(BeansConfig.java:1440)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.parseCustomElement(BeanDefinitionParserDelegate.java:1417)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.parseBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:174)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansConfig$ToolingFriendlyBeanDefinitionDocumentReader.doRegisterBeanDefinitions(BeansConfig.java:1369)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.registerBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:100)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.registerBeanDefinitions(XmlBeanDefinitionReader.java:510)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansConfig$2.registerBeanDefinitions(BeansConfig.java:413)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:392)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:336)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansConfig$2.loadBeanDefinitions(BeansConfig.java:397)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:304)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansConfig$3.call(BeansConfig.java:456)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansConfig$3.call(BeansConfig.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 18:03:10.779
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 18:03:10.780
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 18:03:27.813
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 18:03:27.814
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 18:03:30.717
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 18:03:30.718
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY oracle.eclipse.tools.glassfish 1 1 2015-10-07 18:03:33.663
+!MESSAGE GlassFish: Deploy direcotry D:\glassfish4\glassfish\domains\domain1\eclipseApps\Aurora 0.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 18:08:04.442
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 18:08:04.446
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 18:12:50.705
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 18:12:50.706
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 18:13:17.408
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 18:13:17.411
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 18:14:31.604
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 18:14:31.793
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY oracle.eclipse.tools.glassfish 1 1 2015-10-07 18:14:38.583
+!MESSAGE GlassFish: Deploy direcotry D:\glassfish4\glassfish\domains\domain1\eclipseApps\Aurora 0.1
+
+!ENTRY oracle.eclipse.tools.glassfish 1 1 2015-10-07 18:14:53.173
+!MESSAGE GlassFish: Deploy direcotry D:\glassfish4\glassfish\domains\domain1\eclipseApps\Aurora 0.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 18:16:35.192
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 18:16:35.193
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY oracle.eclipse.tools.glassfish 1 1 2015-10-07 18:16:38.863
+!MESSAGE GlassFish: Deploy direcotry D:\glassfish4\glassfish\domains\domain1\eclipseApps\Aurora 0.1
+
+!ENTRY oracle.eclipse.tools.glassfish 4 1 2015-10-07 18:16:41.216
+!MESSAGE GlassFish: deploy is failing=
+!STACK 0
+java.lang.Exception: deploy is failing=Error occurred during deployment: Exception while loading the app : java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.security.filterChains': Cannot resolve reference to bean 'org.springframework.security.web.DefaultSecurityFilterChain#0' while setting bean property 'sourceList' with key [0]; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.security.web.DefaultSecurityFilterChain#0': Cannot resolve reference to bean 'org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter#0' while setting constructor argument with key [4]; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter#0': Cannot create inner bean '(inner bean)#4be7a176' of type [org.springframework.security.web.authentication.SavedRequestAwareAuthenticationSuccessHandler] while setting bean property 'authenticationSuccessHandler'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name '(inner bean)#4be7a176': Error setting property values; nested exception is org.springframework.beans.PropertyBatchUpdateException; nested PropertyAccessExceptions (1) are:
+PropertyAccessException 1: org.springframework.beans.MethodInvocationException: Property 'defaultTargetUrl' threw exception; nested exception is java.lang.IllegalArgumentException: defaultTarget must start with '/' or with 'http(s)'. Please see server.log for more details.
+	at oracle.eclipse.tools.glassfish.GlassfishServerBehaviourDelegate.publishDeployedDirectory(GlassfishServerBehaviourDelegate.java:613)
+	at oracle.eclipse.tools.glassfish.GlassfishV4ServerBehavior.publishModuleForGlassFishV3(GlassfishV4ServerBehavior.java:96)
+	at oracle.eclipse.tools.glassfish.GlassfishV4ServerBehavior.publishModule(GlassfishV4ServerBehavior.java:56)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY oracle.eclipse.tools.glassfish 4 0 2015-10-07 18:16:41.295
+!MESSAGE cannot Deploy Aurora_0.1
+!STACK 0
+java.lang.Exception: deploy is failing=Error occurred during deployment: Exception while loading the app : java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.security.filterChains': Cannot resolve reference to bean 'org.springframework.security.web.DefaultSecurityFilterChain#0' while setting bean property 'sourceList' with key [0]; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.security.web.DefaultSecurityFilterChain#0': Cannot resolve reference to bean 'org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter#0' while setting constructor argument with key [4]; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter#0': Cannot create inner bean '(inner bean)#4be7a176' of type [org.springframework.security.web.authentication.SavedRequestAwareAuthenticationSuccessHandler] while setting bean property 'authenticationSuccessHandler'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name '(inner bean)#4be7a176': Error setting property values; nested exception is org.springframework.beans.PropertyBatchUpdateException; nested PropertyAccessExceptions (1) are:
+PropertyAccessException 1: org.springframework.beans.MethodInvocationException: Property 'defaultTargetUrl' threw exception; nested exception is java.lang.IllegalArgumentException: defaultTarget must start with '/' or with 'http(s)'. Please see server.log for more details.
+	at oracle.eclipse.tools.glassfish.GlassfishServerBehaviourDelegate.publishDeployedDirectory(GlassfishServerBehaviourDelegate.java:613)
+	at oracle.eclipse.tools.glassfish.GlassfishV4ServerBehavior.publishModuleForGlassFishV3(GlassfishV4ServerBehavior.java:96)
+	at oracle.eclipse.tools.glassfish.GlassfishV4ServerBehavior.publishModule(GlassfishV4ServerBehavior.java:56)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 18:17:05.447
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 18:17:05.448
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY oracle.eclipse.tools.glassfish 1 1 2015-10-07 18:17:15.411
+!MESSAGE GlassFish: Deploy direcotry D:\glassfish4\glassfish\domains\domain1\eclipseApps\Aurora 0.1
+
+!ENTRY oracle.eclipse.tools.glassfish 4 1 2015-10-07 18:17:15.669
+!MESSAGE GlassFish: deploy is failing=
+!STACK 0
+java.lang.Exception: deploy is failing=Application with name [Aurora_0.1] is not deployed
+	at oracle.eclipse.tools.glassfish.GlassfishServerBehaviourDelegate.publishDeployedDirectory(GlassfishServerBehaviourDelegate.java:613)
+	at oracle.eclipse.tools.glassfish.GlassfishV4ServerBehavior.publishModuleForGlassFishV3(GlassfishV4ServerBehavior.java:96)
+	at oracle.eclipse.tools.glassfish.GlassfishV4ServerBehavior.publishModule(GlassfishV4ServerBehavior.java:56)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY oracle.eclipse.tools.glassfish 4 0 2015-10-07 18:17:16.144
+!MESSAGE cannot Deploy Aurora_0.1
+!STACK 0
+java.lang.Exception: deploy is failing=Application with name [Aurora_0.1] is not deployed
+	at oracle.eclipse.tools.glassfish.GlassfishServerBehaviourDelegate.publishDeployedDirectory(GlassfishServerBehaviourDelegate.java:613)
+	at oracle.eclipse.tools.glassfish.GlassfishV4ServerBehavior.publishModuleForGlassFishV3(GlassfishV4ServerBehavior.java:96)
+	at oracle.eclipse.tools.glassfish.GlassfishV4ServerBehavior.publishModule(GlassfishV4ServerBehavior.java:56)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY oracle.eclipse.tools.glassfish 1 1 2015-10-07 18:17:22.900
+!MESSAGE GlassFish: Deploy direcotry D:\glassfish4\glassfish\domains\domain1\eclipseApps\Aurora 0.1
+
+!ENTRY oracle.eclipse.tools.glassfish 4 1 2015-10-07 18:17:23.038
+!MESSAGE GlassFish: deploy is failing=
+!STACK 0
+java.lang.Exception: deploy is failing=Application with name [Aurora_0.1] is not deployed
+	at oracle.eclipse.tools.glassfish.GlassfishServerBehaviourDelegate.publishDeployedDirectory(GlassfishServerBehaviourDelegate.java:613)
+	at oracle.eclipse.tools.glassfish.GlassfishV4ServerBehavior.publishModuleForGlassFishV3(GlassfishV4ServerBehavior.java:96)
+	at oracle.eclipse.tools.glassfish.GlassfishV4ServerBehavior.publishModule(GlassfishV4ServerBehavior.java:56)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY oracle.eclipse.tools.glassfish 4 0 2015-10-07 18:17:23.040
+!MESSAGE cannot Deploy Aurora_0.1
+!STACK 0
+java.lang.Exception: deploy is failing=Application with name [Aurora_0.1] is not deployed
+	at oracle.eclipse.tools.glassfish.GlassfishServerBehaviourDelegate.publishDeployedDirectory(GlassfishServerBehaviourDelegate.java:613)
+	at oracle.eclipse.tools.glassfish.GlassfishV4ServerBehavior.publishModuleForGlassFishV3(GlassfishV4ServerBehavior.java:96)
+	at oracle.eclipse.tools.glassfish.GlassfishV4ServerBehavior.publishModule(GlassfishV4ServerBehavior.java:56)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY oracle.eclipse.tools.glassfish 1 1 2015-10-07 18:17:26.922
+!MESSAGE GlassFish: Deploy direcotry D:\glassfish4\glassfish\domains\domain1\eclipseApps\Aurora 0.1
+
+!ENTRY oracle.eclipse.tools.glassfish 4 1 2015-10-07 18:17:27.041
+!MESSAGE GlassFish: deploy is failing=
+!STACK 0
+java.lang.Exception: deploy is failing=Application with name [Aurora_0.1] is not deployed
+	at oracle.eclipse.tools.glassfish.GlassfishServerBehaviourDelegate.publishDeployedDirectory(GlassfishServerBehaviourDelegate.java:613)
+	at oracle.eclipse.tools.glassfish.GlassfishV4ServerBehavior.publishModuleForGlassFishV3(GlassfishV4ServerBehavior.java:96)
+	at oracle.eclipse.tools.glassfish.GlassfishV4ServerBehavior.publishModule(GlassfishV4ServerBehavior.java:56)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY oracle.eclipse.tools.glassfish 4 0 2015-10-07 18:17:27.045
+!MESSAGE cannot Deploy Aurora_0.1
+!STACK 0
+java.lang.Exception: deploy is failing=Application with name [Aurora_0.1] is not deployed
+	at oracle.eclipse.tools.glassfish.GlassfishServerBehaviourDelegate.publishDeployedDirectory(GlassfishServerBehaviourDelegate.java:613)
+	at oracle.eclipse.tools.glassfish.GlassfishV4ServerBehavior.publishModuleForGlassFishV3(GlassfishV4ServerBehavior.java:96)
+	at oracle.eclipse.tools.glassfish.GlassfishV4ServerBehavior.publishModule(GlassfishV4ServerBehavior.java:56)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY oracle.eclipse.tools.glassfish 4 1 2015-10-07 18:17:55.074
+!MESSAGE GlassFish: Undeploy is failing=
+!STACK 0
+java.lang.Exception: undeploy is failing=null
+	at oracle.eclipse.tools.glassfish.GlassfishServerBehaviourDelegate.undeploy(GlassfishServerBehaviourDelegate.java:460)
+	at oracle.eclipse.tools.glassfish.GlassfishServerBehaviourDelegate.publishDeployedDirectory(GlassfishServerBehaviourDelegate.java:520)
+	at oracle.eclipse.tools.glassfish.GlassfishV4ServerBehavior.publishModuleForGlassFishV3(GlassfishV4ServerBehavior.java:96)
+	at oracle.eclipse.tools.glassfish.GlassfishV4ServerBehavior.publishModule(GlassfishV4ServerBehavior.java:56)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY oracle.eclipse.tools.glassfish 1 1 2015-10-07 18:18:12.842
+!MESSAGE GlassFish: Deploy direcotry D:\glassfish4\glassfish\domains\domain1\eclipseApps\Aurora 0.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 18:19:23.842
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 18:19:23.843
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY oracle.eclipse.tools.glassfish 1 1 2015-10-07 18:19:27.393
+!MESSAGE GlassFish: Deploy direcotry D:\glassfish4\glassfish\domains\domain1\eclipseApps\Aurora 0.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 18:29:44.976
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 18:29:44.978
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 18:29:56.719
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 18:29:56.720
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 18:30:05.938
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 18:30:05.942
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY oracle.eclipse.tools.glassfish 1 1 2015-10-07 18:30:13.935
+!MESSAGE GlassFish: Deploy direcotry D:\glassfish4\glassfish\domains\domain1\eclipseApps\Aurora 0.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 18:31:50.330
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 18:31:50.333
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY oracle.eclipse.tools.glassfish 1 1 2015-10-07 18:32:00.392
+!MESSAGE GlassFish: Deploy direcotry D:\glassfish4\glassfish\domains\domain1\eclipseApps\Aurora 0.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 18:32:22.209
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 18:32:22.212
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!

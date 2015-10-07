@@ -11,22 +11,12 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<form:form method="POST" commandName="user" action="doLogin"
-		class="box login">
-		<fieldset class="boxFields">
-			<form:label path="login">Login: </form:label>
-			<form:input path="login" />
-
-			<form:label path="password">Password: </form:label>
-			<form:input path="password" autocomplete="false"/>
-
-		</fieldset>
-			<form:checkbox path="keepLoggedIn"/><label>Keep me logged in.</label>
-		<footer> 
-		<input type="submit" class="loginBtn" value=Login
-			tabindex="4" />
-		</footer>
-
-	</form:form>
+	<form name="login_form" action='<c:url value="j_spring_security_check"/>' method="POST">
+		<p>Login: </p>
+		<input type="text" name="user_login">
+		<p>Password: </p>
+		<input type="password" name="user_password">
+		<input type="submit" value="Login">
+	</form>
 </body>
 </html>
