@@ -1,0 +1,5 @@
+package com.ts.aurora.model;
+
+public enum AccountType {
+	USER, SERVICE, ADMIN,;
+}

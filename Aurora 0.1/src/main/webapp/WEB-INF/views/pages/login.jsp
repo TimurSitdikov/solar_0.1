@@ -11,10 +11,11 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<form name="login_form" action='<c:url value="j_spring_security_check"/>' method="POST">
-		<p>Login: </p>
+	<c:if test="${param.error!=null}"><p class="error-text">Invalid login or password.</p></c:if>
+	<form name="form-login" action="<c:url value="/login"/>" method="POST">
+		<p class="p-plain-text">Login: </p>
 		<input type="text" name="user_login">
-		<p>Password: </p>
+		<p class="p-plain-text">Password: </p>
 		<input type="password" name="user_password">
 		<input type="submit" value="Login">
 	</form>

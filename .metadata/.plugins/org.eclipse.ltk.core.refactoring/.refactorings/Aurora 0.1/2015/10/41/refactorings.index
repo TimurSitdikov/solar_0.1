@@ -8,3 +8,9 @@
 1444206273852	Delete element
 1444206291254	Copy file
 1444206907981	Rename resource 'app-security.xml'
+1444284588773	Delete element
+1444292703281	Delete element
+1444292728399	Rename type 'HomeController'
+1444294546104	Encapsulate field 'userName'
+1444294550136	Encapsulate field 'password'
+1444294974732	Rename resource 'successPage.jsp'

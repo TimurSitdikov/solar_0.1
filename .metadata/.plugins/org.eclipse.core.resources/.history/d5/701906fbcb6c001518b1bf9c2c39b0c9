@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<beans:beans xmlns="http://www.springframework.org/schema/secutiy"
-	xmlns:beans="http://www.springframework.org/schema/beans"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="
-	http://www.springframework.org/schema/secutiy
-	http://www.springframework.org/schema/secutiy/spring-security-4.0.2.xsd
-	">
-</beans:beans>
