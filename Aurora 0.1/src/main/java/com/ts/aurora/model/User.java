@@ -2,39 +2,39 @@ package com.ts.aurora.model;
 
 public class User {
 
-	private String login;
+	private String sessionId;
 
-	private String password;
+	private String userId;
 
-	private boolean keepLoggedIn;
+	private Account account;
 
-	public String getLogin() {
-		return login;
+	public String getSessionId() {
+		return sessionId;
 	}
 
-	public void setLogin(String login) {
-		this.login = login;
+	public void setSessionId(String sessionId) {
+		this.sessionId = sessionId;
 	}
 
-	public String getPassword() {
-		return password;
+	public String getUserId() {
+		return userId;
 	}
 
-	public void setPassword(String password) {
-		this.password = password;
+	public void setUserId(String userId) {
+		this.userId = userId;
 	}
 
-	public boolean isKeepLoggedIn() {
-		return keepLoggedIn;
+	public Account getAccount() {
+		return account;
 	}
 
-	public void setKeepLoggedIn(boolean keepLoggedIn) {
-		this.keepLoggedIn = keepLoggedIn;
+	public void setAccount(Account account) {
+		this.account = account;
 	}
 
 	@Override
 	public String toString() {
-		return "User [login= " + login + ", password= " + password + ", keepLoggedIn= " + keepLoggedIn + "]";
+		return "User [sessionId = " + sessionId + ", userId = " + userId + ", account = " + account + "]";
 	}
 
 }

@@ -1,5 +1,7 @@
 package com.ts.aurora.model;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
 
 public class Account {
@@ -8,6 +10,8 @@ public class Account {
 	private String userName;
 	private String password;
 	private AccountRole accountRole;
+	private String eMail;
+	private ArrayList<String> phoneNumbers;
 
 	public Account() {
 		this.id = String.valueOf(new Random().nextInt(100));
@@ -53,11 +57,32 @@ public class Account {
 		this.password = password;
 	}
 
+	public String geteMail() {
+		return eMail;
+	}
+
+	public void seteMail(String eMail) {
+		this.eMail = eMail;
+	}
+
+	public List<String> getPhoneNumbers() {
+		return phoneNumbers;
+	}
+
+	public void addPhoneNumbe(String phoneNumber) {
+		this.phoneNumbers.add(phoneNumber);
+	}
+
+	public void deletePhoneNuber(String phoneNumber) {
+		this.phoneNumbers.remove(phoneNumber);
+	}
+
 	@Override
 	public String toString() {
-		return "Account [id = " + id + ", name = " + name + ", accountRole = " + accountRole + ", userName = "
-				+ userName + ", password = " + password + "]";
+		return "Account [id = " + id + ", name = " + name + ", userName = " + userName + ", password = " + password
+				+ ", accountRole = " + accountRole + "]";
+	}
+
 	}
 
 
-}

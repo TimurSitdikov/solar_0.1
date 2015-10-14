@@ -10,7 +10,9 @@
 </head>
 <body>
 	<p></p>
-	<form:form commandName="newAccount" action="/aurora/registerAccount" method="POST">
+	<c:url value="/registerAccount" var="registerUrl"/>
+	
+	<form:form commandName="newAccount" action="${registerUrl}" method="POST">
 		<p>Your name:</p>
 		<form:input path="name" placeholder="Name"/>
 		<p>User name:</p>
