@@ -16,7 +16,9 @@
 	</http>
 
 	<beans:bean name="userDetailsService"
-		class="com.ts.aurora.services.UserDetailsServiceImpl" />
+		class="com.ts.aurora.services.UserDetailsServiceImpl"
+		id="userDetailsService">
+	</beans:bean>
 
 	<beans:bean id="daoAuthenticationProvider"
 		class="org.springframework.security.authentication.dao.DaoAuthenticationProvider">
@@ -25,14 +27,15 @@
 
 	<beans:bean id="authenticationManager"
 		class="org.springframework.security.authentication.ProviderManager">
-		<beans:property name="providers">
-			<beans:list>
+		<beans:constructor-arg name="providers">
+			<beans:list
+				value-type="org.springframework.security.authentication.AuthenticationProvider">
 				<beans:ref bean="daoAuthenticationProvider" />
 			</beans:list>
-		</beans:property>
+		</beans:constructor-arg>
 	</beans:bean>
 
-	<authentication-manager>
+	<authentication-manager >
 		<authentication-provider user-service-ref="userDetailsService">
 			<password-encoder hash="md5"></password-encoder>
 		</authentication-provider>
