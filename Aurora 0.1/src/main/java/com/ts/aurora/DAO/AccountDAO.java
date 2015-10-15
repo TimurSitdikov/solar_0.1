@@ -1,25 +1,13 @@
 package com.ts.aurora.DAO;
 
-import com.ts.aurora.model.Account;
+import java.util.List;
 
-public class AccountDAO implements DAO {
+import com.ts.aurora.model.User;
 
-	@Override
-	public Account getByID(String id) {
-		return null;
-	}
+public interface AccountDAO extends DAO {
 
-	@Override
-	public void update() {
+	public User getByUserName(String userName);
 
-	}
+	public List<User> getAllAccounts();
 
-	@Override
-	public void delete() {
-
-	}
-
-	public Account getByName() {
-		return null;
-	}
 }

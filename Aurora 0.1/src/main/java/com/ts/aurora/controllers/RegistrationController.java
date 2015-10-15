@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.ts.aurora.model.Account;
+import com.ts.aurora.model.User;
 
 @Controller
 public class RegistrationController {
@@ -17,12 +17,12 @@ public class RegistrationController {
 
 	@RequestMapping(value = "/registration")
 	public ModelAndView openRegistration() {
-		return new ModelAndView("registration", "newAccount", new Account());
+		return new ModelAndView("registration", "newUser", new User());
 	}
 
-	@RequestMapping(value = "/registerAccount", method = RequestMethod.POST)
-	public String registerAccount(@ModelAttribute("newAccount") Account newAccount) {
-		logger.info("Account has been registred: " + newAccount);
+	@RequestMapping(value = "/registerUser", method = RequestMethod.POST)
+	public String registerAccount(@ModelAttribute("newAccount") User newUser) {
+		logger.info("Account has been registred: " + newUser);
 		return "successRegistration";
 	}
 }

@@ -10,9 +10,9 @@
 </head>
 <body>
 	<p></p>
-	<c:url value="/registerAccount" var="registerUrl"/>
+	<c:url value="/registerUser" var="registerUrl"/>
 	
-	<form:form commandName="newAccount" action="${registerUrl}" method="POST">
+	<form:form commandName="newUser" action="${registerUrl}" method="POST">
 		<p>Your name:</p>
 		<form:input path="name" placeholder="Name"/>
 		<p>User name:</p>

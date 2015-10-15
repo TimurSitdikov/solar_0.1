@@ -2,10 +2,12 @@ package com.ts.aurora.DAO;
 
 public interface DAO {
 
-	public Object getByID(String id);
+	public Object getByID(int id);
 
-	public void update();
+	public void update(Object obj);
 
-	public void delete();
+	public void delete(int id);
+
+	public void add(Object obj);
 
 }
