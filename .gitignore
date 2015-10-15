@@ -58,7 +58,7 @@ local.properties
 .settings/
 .loadpath
 /src/main/resources/rebel.xml
-.metadata/.*
 # External tool builders
 .externalToolBuilders/
 .metadata/.plugins/org.eclipse.core.resources/.projects/Aurora 0.1/.indexes/e4/b9/22/81/7f/a0/29/history.index
+.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
