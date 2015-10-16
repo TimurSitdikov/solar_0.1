@@ -13,8 +13,8 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.ts.aurora.DAO.AccountDAO;
-import com.ts.aurora.model.UsertRole;
+import com.ts.aurora.DAO.UserDAO;
+import com.ts.aurora.model.UserRole;
 import com.ts.aurora.model.UserStatus;
 import com.ts.aurora.model.User;
 
@@ -22,12 +22,12 @@ import com.ts.aurora.model.User;
 public class UserDetailsServiceImpl implements UserDetailsService {
 
 	@Autowired
-	private AccountDAO accountDAO;
+	private UserDAO userDAO;
 
 	@Override
 	@Transactional(readOnly = true)
 	public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-		User user = accountDAO.getByUserName(username);
+		User user = userDAO.getByUserName(username);
 
 		if (user != null) {
 			String password = user.getPassword();
@@ -37,7 +37,7 @@ public class UserDetailsServiceImpl implements UserDetailsService {
 			boolean accountNonLocked = user.getAccountStatus().equals(UserStatus.ACTIVE);
 
 			Collection<GrantedAuthority> authorities = new ArrayList<GrantedAuthority>();
-			for (UsertRole accountRole : user.getAccountRoles()) {
+			for (UserRole accountRole : user.getAccountRoles()) {
 				authorities.add(new SimpleGrantedAuthority(accountRole.getRoleName()));
 			}
 

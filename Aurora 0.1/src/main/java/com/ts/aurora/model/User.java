@@ -24,24 +24,23 @@ public class User implements Serializable {
 	private String userName;
 	private String password;
 	@ManyToMany
-	@JoinTable(name = "accounts_roles", joinColumns = @JoinColumn(name = "user_id") , inverseJoinColumns = @JoinColumn(name = "role_id") )
-	private List<UsertRole> accountRoles;
+	@JoinTable(name = "users_roles", joinColumns = @JoinColumn(name = "user_id") , inverseJoinColumns = @JoinColumn(name = "role_id") )
+	private List<UserRole> userRoles;
 	private String eMail;
 	private ArrayList<String> phoneNumbers;
 	@Enumerated(EnumType.STRING)
 	private UserStatus accountStatus;
 
-	public User() {
-	}
+	public User() {}
 
-	public User(String id, String name, String userName, String password, List<UsertRole> accountRoles,
+	public User(String id, String name, String userName, String password, List<UserRole> accountRoles,
 			String eMail, ArrayList<String> phoneNumbers, UserStatus accountStatus) {
 		super();
 		this.id = id;
 		this.name = name;
 		this.userName = userName;
 		this.password = password;
-		this.accountRoles = accountRoles;
+		this.userRoles = accountRoles;
 		this.eMail = eMail;
 		this.phoneNumbers = phoneNumbers;
 		this.accountStatus = accountStatus;
@@ -63,12 +62,12 @@ public class User implements Serializable {
 		this.name = name;
 	}
 
-	public List<UsertRole> getAccountRoles() {
-		return accountRoles;
+	public List<UserRole> getAccountRoles() {
+		return userRoles;
 	}
 
-	public void setAccountRoles(List<UsertRole> accountRoles) {
-		this.accountRoles = accountRoles;
+	public void setAccountRoles(List<UserRole> accountRoles) {
+		this.userRoles = accountRoles;
 	}
 
 	public String getUserName() {
@@ -119,7 +118,7 @@ public class User implements Serializable {
 	@Override
 	public String toString() {
 		return "Account [id = " + id + ", name = " + name + ", userName = " + userName + ", password = " + password
-				+ ", accountRoles = " + accountRoles + ", eMail = " + eMail + ", phoneNumbers = " + phoneNumbers
+				+ ", accountRoles = " + userRoles + ", eMail = " + eMail + ", phoneNumbers = " + phoneNumbers
 				+ ", accountStatus = " + accountStatus + "]";
 	}
 

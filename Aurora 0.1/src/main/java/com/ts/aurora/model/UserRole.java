@@ -9,18 +9,17 @@ import javax.persistence.Id;
 import javax.persistence.ManyToMany;
 
 @Entity
-public class UsertRole {
+public class UserRole {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int id;
 	private String roleName;
-	@ManyToMany(mappedBy = "roles")
+	@ManyToMany(mappedBy = "userRoles")
 	private List<User> users;
 
-	public UsertRole() {
-	}
+	public UserRole() {}
 
-	public UsertRole(int id, String roleName, List<User> users) {
+	public UserRole(int id, String roleName, List<User> users) {
 		super();
 		this.id = id;
 		this.roleName = roleName;

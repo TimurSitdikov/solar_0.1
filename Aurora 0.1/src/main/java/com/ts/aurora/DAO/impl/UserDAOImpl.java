@@ -8,11 +8,11 @@ import org.hibernate.criterion.Restrictions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-import com.ts.aurora.DAO.AccountDAO;
+import com.ts.aurora.DAO.UserDAO;
 import com.ts.aurora.model.User;
 
 @Repository
-public class AccountDAOImpl implements AccountDAO {
+public class UserDAOImpl implements UserDAO {
 
 	@Autowired
 	private SessionFactory session;
